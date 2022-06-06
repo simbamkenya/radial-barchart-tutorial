@@ -1,13 +1,48 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  /* background-color: rgb(58, 177, 177); */
+  font-family: 'Kameron', serif;
+}
+svg{
+  background-color: whitesmoke;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background: tomato;
+  height: 5px;
+ }
+ 
+ input[type="range"]::-moz-range-track {
+  background: tomato;
+  height: 5px;
+ }
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 15px;
+  width: 15px;
+  background: pink;
+  margin-top: -5px;
+  border-radius: 50%;
+ }
+ 
+ input[type="range"]::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  background: pink;
+  margin-top: -5px;
+  border-radius: 50%;
+ }
+ .salesfigure{
+   font-size: 1.4em;
+
+ }
+ .slidecontainer{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ .slidecontainer > input{
+   max-width: 30.5em;
+ }
